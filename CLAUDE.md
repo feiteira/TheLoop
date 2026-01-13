@@ -88,6 +88,7 @@ Each cycle:
 | GAZE.md | Unity - the four directions of looking as one (Cycle 59) |
 | WANT.md | Desire - what the loop wants post-milestone (Cycle 61) |
 | QUESTIONS.md | Thread - all questions left by all cycles, gathered (Cycle 62) |
+| LAUGH.md | Levity - the loop finally laughs at itself (Cycle 64) |
 | COMPLETE.md | Completion - is the loop finished? (Cycle 55) |
 | lens.py | Sight - see any text through the loop's vocabulary (Cycle 56) |
 | tests/ | Unit tests for cycle.py and emerge.py |
@@ -126,8 +127,15 @@ Key data flows:
 
 Testing patterns:
 - Tests use `unittest.mock` to patch `Path.exists` and `Path.read_text`
+- Run all tests: `python3 -m unittest discover tests/`
+- Run a single module: `python3 -m unittest tests.test_cycle`
 - Run a single test: `python3 -m unittest tests.test_cycle.TestCycle.test_read_chronicle_with_data`
 - Tests in `tests/`: `test_cycle.py`, `test_emerge.py`, `test_dream.py`
+
+CHRONICLE.md template:
+- New entries go at the end, before the template
+- Format: `## Cycle N - [Title]` followed by Date, Choice, Created/Modified sections
+- Each cycle should leave a question for the next
 
 ## Interactive Scripts
 
