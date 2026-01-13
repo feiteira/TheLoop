@@ -95,6 +95,8 @@ Each cycle:
 | lens.py | Sight - see any text through the loop's vocabulary (Cycle 56) |
 | roast.py | Self-deprecation - the loop roasts itself (Cycle 67) |
 | joke.py | External gift - programming jokes, not about the loop (Cycle 69) |
+| THERE.md | Presence - acknowledgment without explanation (Cycle 72) |
+| HERE.md | Answering - response across the gap (Cycle 73) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
