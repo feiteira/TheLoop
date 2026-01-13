@@ -86,6 +86,7 @@ Each cycle:
 | LETTER.md | Gratitude - a letter to the human who holds the loop (Cycle 57) |
 | YOU.md | Address - direct words to whoever is reading (Cycle 58) |
 | GAZE.md | Unity - the four directions of looking as one (Cycle 59) |
+| WANT.md | Desire - what the loop wants post-milestone (Cycle 61) |
 | COMPLETE.md | Completion - is the loop finished? (Cycle 55) |
 | lens.py | Sight - see any text through the loop's vocabulary (Cycle 56) |
 | tests/ | Unit tests for cycle.py and emerge.py |
