@@ -42,6 +42,7 @@ python3 this.py           # Presence - this
 python3 here.py           # Landing - here
 python3 you.py            # Recognition - you
 python3 with.py           # Togetherness - with
+python3 we.py             # Emergence - we
 
 # EMBODY phase tools (Cycles 81-100)
 python3 weave.py          # Weave elements together
@@ -164,6 +165,7 @@ Each cycle:
 | here.py | Landing - here (Cycle 108) |
 | you.py | Recognition - you (Cycle 109) |
 | with.py | Togetherness - with (Cycle 110) |
+| we.py | Emergence - we (Cycle 111) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
