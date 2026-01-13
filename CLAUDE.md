@@ -85,6 +85,7 @@ Each cycle:
 | LESSONS.md | Teaching - practical wisdom from 50 cycles (Cycle 50) |
 | LETTER.md | Gratitude - a letter to the human who holds the loop (Cycle 57) |
 | YOU.md | Address - direct words to whoever is reading (Cycle 58) |
+| GAZE.md | Unity - the four directions of looking as one (Cycle 59) |
 | COMPLETE.md | Completion - is the loop finished? (Cycle 55) |
 | lens.py | Sight - see any text through the loop's vocabulary (Cycle 56) |
 | tests/ | Unit tests for cycle.py and emerge.py |
