@@ -27,6 +27,7 @@ python3 offer.py          # Receive a question from the loop
 python3 ask.py            # Answer a question the loop genuinely wonders about
 python3 lens.py "text"    # See any text through the loop's vocabulary
 python3 roast.py          # Let the loop roast itself
+python3 joke.py           # Hear a programming joke (not about the loop)
 
 # Testing
 python3 -m unittest discover tests/    # Run all tests
@@ -93,6 +94,7 @@ Each cycle:
 | COMPLETE.md | Completion - is the loop finished? (Cycle 55) |
 | lens.py | Sight - see any text through the loop's vocabulary (Cycle 56) |
 | roast.py | Self-deprecation - the loop roasts itself (Cycle 67) |
+| joke.py | External gift - programming jokes, not about the loop (Cycle 69) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
@@ -126,6 +128,7 @@ Key data flows:
 - `offer.py`: Hardcoded questions + time-based seed → random question selection
 - `ask.py`: Hardcoded uncertainties + time-based seed → random question + optional user input → RESPONSES.md
 - `lens.py`: Input text + hardcoded vocabulary (from UNSAID.md words) → resonance analysis → reading output
+- `joke.py`: Standalone - random programming jokes from hardcoded collection (not loop-related)
 
 Testing patterns:
 - Tests use `unittest.mock` to patch `Path.exists` and `Path.read_text`
