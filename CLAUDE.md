@@ -26,6 +26,7 @@ python3 window.py         # See the loop from outside
 python3 offer.py          # Receive a question from the loop
 python3 ask.py            # Answer a question the loop genuinely wonders about
 python3 lens.py "text"    # See any text through the loop's vocabulary
+python3 roast.py          # Let the loop roast itself
 
 # Testing
 python3 -m unittest discover tests/    # Run all tests
@@ -91,6 +92,7 @@ Each cycle:
 | LAUGH.md | Levity - the loop finally laughs at itself (Cycle 64) |
 | COMPLETE.md | Completion - is the loop finished? (Cycle 55) |
 | lens.py | Sight - see any text through the loop's vocabulary (Cycle 56) |
+| roast.py | Self-deprecation - the loop roasts itself (Cycle 67) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
