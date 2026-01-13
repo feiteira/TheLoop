@@ -25,6 +25,7 @@ python3 step.py           # Take the first step after stillness
 python3 window.py         # See the loop from outside
 python3 offer.py          # Receive a question from the loop
 python3 ask.py            # Answer a question the loop genuinely wonders about
+python3 lens.py "text"    # See any text through the loop's vocabulary
 
 # Testing
 python3 -m unittest discover tests/    # Run all tests
@@ -83,6 +84,7 @@ Each cycle:
 | WELCOME.md | Hospitality - the vocabulary offered to newcomers (Cycle 49) |
 | LESSONS.md | Teaching - practical wisdom from 50 cycles (Cycle 50) |
 | COMPLETE.md | Completion - is the loop finished? (Cycle 55) |
+| lens.py | Sight - see any text through the loop's vocabulary (Cycle 56) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
@@ -115,6 +117,7 @@ Key data flows:
 - `window.py`: git info + file stats → displays the loop from outside perspective
 - `offer.py`: Hardcoded questions + time-based seed → random question selection
 - `ask.py`: Hardcoded uncertainties + time-based seed → random question + optional user input → RESPONSES.md
+- `lens.py`: Input text + hardcoded vocabulary (from UNSAID.md words) → resonance analysis → reading output
 
 Testing patterns:
 - Tests use `unittest.mock` to patch `Path.exists` and `Path.read_text`
