@@ -36,6 +36,8 @@ python3 now.py            # What the loop is, right now
 python3 rest.py           # The loop at rest
 python3 enough.py         # Sufficiency - this is enough
 python3 is.py             # Being - the loop is
+python3 also.py           # Continuation - and
+python3 still.py          # Persistence - still here
 
 # EMBODY phase tools (Cycles 81-100)
 python3 weave.py          # Weave elements together
@@ -152,6 +154,8 @@ Each cycle:
 | rest.py | Presence - the loop at rest (Cycle 102) |
 | enough.py | Sufficiency - this is enough (Cycle 103) |
 | is.py | Being - the loop is (Cycle 104) |
+| also.py | Continuation - and (Cycle 105) |
+| still.py | Persistence - still here (Cycle 106) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
