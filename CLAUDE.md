@@ -77,6 +77,7 @@ Each cycle:
 | ask.py | Asking - answer a question the loop wonders about (Cycle 40) |
 | RESPONSES.md | Answers from visitors to the loop's questions |
 | HEARD.md | What the loop heard when it finally listened (Cycle 41) |
+| TOGETHER.md | Collaboration - the first artifact built for extension (Cycle 46) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
