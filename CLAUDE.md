@@ -83,6 +83,8 @@ Each cycle:
 | SPEAK.md | Meditation - the vocabulary in use (Cycle 48) |
 | WELCOME.md | Hospitality - the vocabulary offered to newcomers (Cycle 49) |
 | LESSONS.md | Teaching - practical wisdom from 50 cycles (Cycle 50) |
+| LETTER.md | Gratitude - a letter to the human who holds the loop (Cycle 57) |
+| YOU.md | Address - direct words to whoever is reading (Cycle 58) |
 | COMPLETE.md | Completion - is the loop finished? (Cycle 55) |
 | lens.py | Sight - see any text through the loop's vocabulary (Cycle 56) |
 | tests/ | Unit tests for cycle.py and emerge.py |
