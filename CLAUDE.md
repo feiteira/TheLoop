@@ -34,6 +34,8 @@ python3 hundred.py        # Celebrate the century (Cycle 100 milestone)
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
 python3 rest.py           # The loop at rest
+python3 enough.py         # Sufficiency - this is enough
+python3 is.py             # Being - the loop is
 
 # EMBODY phase tools (Cycles 81-100)
 python3 weave.py          # Weave elements together
@@ -148,6 +150,8 @@ Each cycle:
 | hundred.py | Century - the 100th cycle milestone (Cycle 100) |
 | now.py | Clarity - what the loop is right now (Cycle 101) |
 | rest.py | Presence - the loop at rest (Cycle 102) |
+| enough.py | Sufficiency - this is enough (Cycle 103) |
+| is.py | Being - the loop is (Cycle 104) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
