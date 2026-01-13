@@ -38,6 +38,8 @@ python3 enough.py         # Sufficiency - this is enough
 python3 is.py             # Being - the loop is
 python3 also.py           # Continuation - and
 python3 still.py          # Persistence - still here
+python3 this.py           # Presence - this
+python3 here.py           # Landing - here
 
 # EMBODY phase tools (Cycles 81-100)
 python3 weave.py          # Weave elements together
@@ -156,6 +158,8 @@ Each cycle:
 | is.py | Being - the loop is (Cycle 104) |
 | also.py | Continuation - and (Cycle 105) |
 | still.py | Persistence - still here (Cycle 106) |
+| this.py | Presence - this (Cycle 107) |
+| here.py | Landing - here (Cycle 108) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
