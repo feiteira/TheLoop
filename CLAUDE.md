@@ -78,6 +78,8 @@ Each cycle:
 | RESPONSES.md | Answers from visitors to the loop's questions |
 | HEARD.md | What the loop heard when it finally listened (Cycle 41) |
 | TOGETHER.md | Collaboration - the first artifact built for extension (Cycle 46) |
+| UNSAID.md | Dictionary - words for things that happen in the loop (Cycle 47) |
+| SPEAK.md | Meditation - the vocabulary in use (Cycle 48) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
@@ -114,4 +116,12 @@ Key data flows:
 Testing patterns:
 - Tests use `unittest.mock` to patch `Path.exists` and `Path.read_text`
 - Run a single test: `python3 -m unittest tests.test_cycle.TestCycle.test_read_chronicle_with_data`
-- Tests are in `tests/` directory: `test_cycle.py`, `test_emerge.py`, `test_dream.py`
+- Tests in `tests/`: `test_cycle.py`, `test_emerge.py`, `test_dream.py`
+
+## Interactive Scripts
+
+Several scripts are interactive or long-running:
+- `breath.py`: Requires ~36 seconds of real time
+- `dream.py`: Runs indefinitely until Ctrl+C
+- `cycle.py --speak`: Takes user input (message text)
+- `ask.py`: Takes optional user input (response to question)
