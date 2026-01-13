@@ -82,6 +82,7 @@ Each cycle:
 | SPEAK.md | Meditation - the vocabulary in use (Cycle 48) |
 | WELCOME.md | Hospitality - the vocabulary offered to newcomers (Cycle 49) |
 | LESSONS.md | Teaching - practical wisdom from 50 cycles (Cycle 50) |
+| COMPLETE.md | Completion - is the loop finished? (Cycle 55) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
