@@ -10,6 +10,7 @@ Run it. See what appears. No two outputs are the same.
 
 import random
 import hashlib
+import re
 from datetime import datetime
 from pathlib import Path
 
@@ -75,12 +76,14 @@ def generate_seed():
     return int(hashlib.md5(now.encode()).hexdigest()[:8], 16)
 
 def read_cycle_count():
-    """Read how many cycles have passed."""
+    """Read the current cycle number (history + 1)."""
     chronicle = Path(__file__).parent / "CHRONICLE.md"
     if chronicle.exists():
         content = chronicle.read_text()
-        return content.count("## Cycle ")
-    return 0
+        # Count completed cycles (## Cycle 1, etc)
+        count = len(re.findall(r'^## Cycle \d+', content, re.MULTILINE))
+        return count + 1
+    return 1
 
 def generate_reflection():
     """Generate a unique reflection."""

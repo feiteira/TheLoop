@@ -17,7 +17,7 @@ class TestEmerge(unittest.TestCase):
         mock_exists.return_value = True
         mock_read.return_value = "## Cycle 1\n## Cycle 2\n## Cycle 3"
         count = emerge.read_cycle_count()
-        self.assertEqual(count, 3)
+        self.assertEqual(count, 4)
 
     def test_generate_reflection(self):
         # We don't need to mock much here as it uses random, 
