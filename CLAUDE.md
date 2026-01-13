@@ -69,6 +69,7 @@ Each cycle:
 | play.py | The arcade - random games, fortunes, and fun with loop material |
 | navigate.py | Navigation - find your way through the loop (map, search, paths) |
 | step.py | Movement - the first step after stillness (Cycle 37) |
+| window.py | Perspective - see the loop from outside (Cycle 38) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
