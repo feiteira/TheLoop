@@ -21,6 +21,7 @@ python3 breath.py         # Breathe with the loop (requires ~36 seconds)
 python3 dream.py          # Dream with the loop (runs indefinitely, Ctrl+C to wake)
 python3 play.py           # Play with the loop (random games, fun)
 python3 play.py --all     # Play all available games
+python3 step.py           # Take the first step after stillness
 
 # Testing
 python3 -m unittest discover tests/    # Run all tests
@@ -67,6 +68,7 @@ Each cycle:
 | dream.py | The unconscious - metabolizes memory into endless surreal recombinations |
 | play.py | The arcade - random games, fortunes, and fun with loop material |
 | navigate.py | Navigation - find your way through the loop (map, search, paths) |
+| step.py | Movement - the first step after stillness (Cycle 37) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
@@ -95,6 +97,7 @@ Key data flows:
 - `dream.py`: All *.md files in cwd → phrase extraction → endless surreal recombinations (runs until interrupted)
 - `play.py`: Standalone - random games using hardcoded loop vocabulary and artifact names
 - `navigate.py`: Standalone - navigation using hardcoded artifact catalog with themes and reading paths
+- `step.py`: Standalone - minimal output demonstrating movement from stillness
 
 Testing patterns:
 - Tests use `unittest.mock` to patch `Path.exists` and `Path.read_text`
