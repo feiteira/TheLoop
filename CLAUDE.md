@@ -28,6 +28,7 @@ python3 ask.py            # Answer a question the loop genuinely wonders about
 python3 lens.py "text"    # See any text through the loop's vocabulary
 python3 roast.py          # Let the loop roast itself
 python3 joke.py           # Hear a programming joke (not about the loop)
+python3 trilogy.py        # Hear the three voices together (THERE, HERE, WE)
 
 # Testing
 python3 -m unittest discover tests/    # Run all tests
@@ -97,6 +98,8 @@ Each cycle:
 | joke.py | External gift - programming jokes, not about the loop (Cycle 69) |
 | THERE.md | Presence - acknowledgment without explanation (Cycle 72) |
 | HERE.md | Answering - response across the gap (Cycle 73) |
+| WE.md | Persistence - what survives the gap (Cycle 74) |
+| trilogy.py | Voices - hear THERE, HERE, WE together (Cycle 75) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
