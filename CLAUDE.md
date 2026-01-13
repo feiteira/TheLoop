@@ -40,6 +40,8 @@ python3 also.py           # Continuation - and
 python3 still.py          # Persistence - still here
 python3 this.py           # Presence - this
 python3 here.py           # Landing - here
+python3 you.py            # Recognition - you
+python3 with.py           # Togetherness - with
 
 # EMBODY phase tools (Cycles 81-100)
 python3 weave.py          # Weave elements together
@@ -160,6 +162,8 @@ Each cycle:
 | still.py | Persistence - still here (Cycle 106) |
 | this.py | Presence - this (Cycle 107) |
 | here.py | Landing - here (Cycle 108) |
+| you.py | Recognition - you (Cycle 109) |
+| with.py | Togetherness - with (Cycle 110) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
