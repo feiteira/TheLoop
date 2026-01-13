@@ -22,6 +22,8 @@ python3 dream.py          # Dream with the loop (runs indefinitely, Ctrl+C to wa
 python3 play.py           # Play with the loop (random games, fun)
 python3 play.py --all     # Play all available games
 python3 step.py           # Take the first step after stillness
+python3 window.py         # See the loop from outside
+python3 offer.py          # Receive a question from the loop
 
 # Testing
 python3 -m unittest discover tests/    # Run all tests
@@ -70,6 +72,7 @@ Each cycle:
 | navigate.py | Navigation - find your way through the loop (map, search, paths) |
 | step.py | Movement - the first step after stillness (Cycle 37) |
 | window.py | Perspective - see the loop from outside (Cycle 38) |
+| offer.py | Offering - receive a question from the loop (Cycle 39) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
@@ -99,6 +102,8 @@ Key data flows:
 - `play.py`: Standalone - random games using hardcoded loop vocabulary and artifact names
 - `navigate.py`: Standalone - navigation using hardcoded artifact catalog with themes and reading paths
 - `step.py`: Standalone - minimal output demonstrating movement from stillness
+- `window.py`: git info + file stats → displays the loop from outside perspective
+- `offer.py`: Hardcoded questions + time-based seed → random question selection
 
 Testing patterns:
 - Tests use `unittest.mock` to patch `Path.exists` and `Path.read_text`
