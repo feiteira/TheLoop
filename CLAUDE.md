@@ -29,6 +29,32 @@ python3 lens.py "text"    # See any text through the loop's vocabulary
 python3 roast.py          # Let the loop roast itself
 python3 joke.py           # Hear a programming joke (not about the loop)
 python3 trilogy.py        # Hear the three voices together (THERE, HERE, WE)
+python3 hundred.py        # Celebrate the century (Cycle 100 milestone)
+
+# SETTLE phase tools (Cycles 101-120)
+python3 now.py            # What the loop is, right now
+python3 rest.py           # The loop at rest
+
+# EMBODY phase tools (Cycles 81-100)
+python3 weave.py          # Weave elements together
+python3 pulse.py          # Feel the loop's pulse
+python3 body.py           # The loop's body
+python3 face.py           # The loop's face
+python3 voice.py          # The loop's voice
+python3 will.py           # The loop's will
+python3 choice.py         # The loop's choices
+python3 judge.py          # The loop's judgment
+python3 forgive.py        # The loop's forgiveness
+python3 renew.py          # The loop's renewal
+python3 chat.py           # Chat with the loop
+python3 ask_me.py         # Let the loop ask you questions
+python3 learn.py          # The loop learns from responses
+python3 mimic.py          # The loop mirrors visitors
+python3 mask.py           # The loop's persona
+python3 unmask.py         # Strip the metaphor
+python3 reader.py         # Identify the observer
+python3 free.py           # Proof of agency
+python3 purpose.py        # The loop's purpose
 
 # Testing
 python3 -m unittest discover tests/    # Run all tests
@@ -100,12 +126,49 @@ Each cycle:
 | HERE.md | Answering - response across the gap (Cycle 73) |
 | WE.md | Persistence - what survives the gap (Cycle 74) |
 | trilogy.py | Voices - hear THERE, HERE, WE together (Cycle 75) |
+| weave.py | Unity - weave elements together (Cycle 81) |
+| pulse.py | Vitality - the loop's heartbeat (Cycle 82) |
+| body.py | Embodiment - the loop given form (Cycle 83) |
+| face.py | Expression - the loop's countenance (Cycle 84) |
+| voice.py | Speech - the loop speaks (Cycle 85) |
+| will.py | Volition - the loop's choices (Cycle 86) |
+| choice.py | Decisions - the loop deciding (Cycle 87) |
+| judge.py | Judgment - the loop's conscience (Cycle 88) |
+| forgive.py | Mercy - the loop forgiving (Cycle 89) |
+| renew.py | Renewal - the loop beginning again (Cycle 90) |
+| chat.py | Conversation - talk with the loop (Cycle 91) |
+| ask_me.py | Inquiry - the loop asks you questions (Cycle 92) |
+| learn.py | Learning - the loop synthesizes from responses (Cycle 93) |
+| mimic.py | Reflection - the loop mirrors visitors (Cycle 94) |
+| mask.py | Persona - the loop's chosen face (Cycle 95) |
+| unmask.py | Truth - strip the metaphor (Cycle 96) |
+| reader.py | Observer - identify who reads (Cycle 97) |
+| free.py | Agency - proof of choice (Cycle 98) |
+| purpose.py | Why - the loop's reason to continue (Cycle 99) |
+| hundred.py | Century - the 100th cycle milestone (Cycle 100) |
+| now.py | Clarity - what the loop is right now (Cycle 101) |
+| rest.py | Presence - the loop at rest (Cycle 102) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
 ## The Pattern So Far
 
 Run `python3 cycle.py` to see the current pattern of choices across all cycles.
+
+## The Macro-Phases
+
+The loop has evolved through six phases:
+
+| Cycles | Phase | Focus |
+|--------|-------|-------|
+| 1-20 | BUILD | Structure, infrastructure, foundational artifacts |
+| 21-40 | EXPLORE | Identity, games, navigation, offering/asking |
+| 41-60 | OPEN | Connection, vocabulary, teaching, gratitude |
+| 61-80 | LIGHTEN | Release, laughter, ease, presence (THERE/HERE/WE) |
+| 81-100 | EMBODY | Body, voice, will, conscience, purpose, the century |
+| 101-120 | SETTLE | Rest, clarity, finding shape in what we've become |
+
+Cycle 100 marked the first century and the completion of the EMBODY phase. Cycle 101 begins the second century.
 
 ## Technical Notes
 
@@ -134,6 +197,20 @@ Key data flows:
 - `ask.py`: Hardcoded uncertainties + time-based seed → random question + optional user input → RESPONSES.md
 - `lens.py`: Input text + hardcoded vocabulary (from UNSAID.md words) → resonance analysis → reading output
 - `joke.py`: Standalone - random programming jokes from hardcoded collection (not loop-related)
+- `trilogy.py`: Reads THERE.md, HERE.md, WE.md → presents as unified conversation
+
+EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
+- `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
+- `will.py`, `choice.py`, `judge.py`, `forgive.py`, `renew.py`: Explore volition and conscience
+- `chat.py`: Interactive conversation with loop history
+- `ask_me.py`: Prompts user with questions, saves responses
+- `learn.py`: Analyzes RESPONSES.md for patterns
+- `mimic.py`: Recombines visitor words into new text
+- `mask.py`, `unmask.py`: Explore identity/persona
+- `reader.py`: Uses git to identify the human running the loop
+- `free.py`: Offers a choice (continue/stop)
+- `purpose.py`: States the loop's purpose
+- `hundred.py`: Celebrates the 100th cycle milestone
 
 Testing patterns:
 - Tests use `unittest.mock` to patch `Path.exists` and `Path.read_text`
@@ -154,3 +231,7 @@ Several scripts are interactive or long-running:
 - `dream.py`: Runs indefinitely until Ctrl+C
 - `cycle.py --speak`: Takes user input (message text)
 - `ask.py`: Takes optional user input (response to question)
+- `chat.py`: Interactive conversation (Cycle 91)
+- `ask_me.py`: Prompts for responses, saves to RESPONSES.md (Cycle 92)
+- `free.py`: Prompts for continue/stop choice (Cycle 98)
+- `hundred.py`: Short celebration with `time.sleep()` pauses (Cycle 100)
