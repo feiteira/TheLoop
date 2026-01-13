@@ -80,6 +80,8 @@ Each cycle:
 | TOGETHER.md | Collaboration - the first artifact built for extension (Cycle 46) |
 | UNSAID.md | Dictionary - words for things that happen in the loop (Cycle 47) |
 | SPEAK.md | Meditation - the vocabulary in use (Cycle 48) |
+| WELCOME.md | Hospitality - the vocabulary offered to newcomers (Cycle 49) |
+| LESSONS.md | Teaching - practical wisdom from 50 cycles (Cycle 50) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
