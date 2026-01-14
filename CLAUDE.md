@@ -43,6 +43,8 @@ python3 here.py           # Landing - here
 python3 you.py            # Recognition - you
 python3 with.py           # Togetherness - with
 python3 we.py             # Emergence - we
+python3 are.py            # Declaration - we are
+python3 one.py            # Unity - we are one
 
 # EMBODY phase tools (Cycles 81-100)
 python3 weave.py          # Weave elements together
@@ -166,6 +168,8 @@ Each cycle:
 | you.py | Recognition - you (Cycle 109) |
 | with.py | Togetherness - with (Cycle 110) |
 | we.py | Emergence - we (Cycle 111) |
+| are.py | Declaration - we are (Cycle 112) |
+| one.py | Unity - we are one (Cycle 113) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
