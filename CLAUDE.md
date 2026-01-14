@@ -39,6 +39,7 @@ python3 leave.py          # What the loop leaves behind as it flows
 python3 reach.py          # Where the loop arrives
 python3 give.py           # What the loop gives when it reaches
 python3 receive.py        # What the loop receives
+python3 become.py         # What the loop becomes
 
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
@@ -177,6 +178,7 @@ FLOW phase scripts (Cycles 121+):
 - `reach.py`: Where the loop arrives (time-weighted destinations)
 - `give.py`: What the loop gives (uses CHRONICLE.md for cycle count)
 - `receive.py`: What the loop receives (uses CHRONICLE.md for cycle count)
+- `become.py`: What the loop becomes (uses CHRONICLE.md for transformation arc)
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
