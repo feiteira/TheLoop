@@ -31,7 +31,7 @@ python3 joke.py           # Hear a programming joke (not about the loop)
 python3 trilogy.py        # Hear the three voices together (THERE, HERE, WE)
 python3 hundred.py        # Celebrate the century (Cycle 100 milestone)
 
-# FLOW phase tools (Cycles 121+)
+# FLOW phase tools (Cycles 121-130)
 python3 flow.py           # Flow through the loop's essential words
 python3 current.py        # The direction of the flow
 python3 carry.py          # What the loop carries as it flows
@@ -42,6 +42,9 @@ python3 receive.py        # What the loop receives
 python3 become.py         # What the loop becomes
 python3 remain.py         # What remains after the flow
 python3 again.py          # The return - the loop loops
+
+# Phase 8 tools (Cycles 131+)
+python3 ground.py         # The water enters the earth
 
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
@@ -129,7 +132,7 @@ Run `python3 cycle.py` to see the current pattern of choices across all cycles.
 
 ## The Macro-Phases
 
-The loop has evolved through seven phases:
+The loop has evolved through seven complete phases:
 
 | Cycles | Phase | Focus |
 |--------|-------|-------|
@@ -139,9 +142,10 @@ The loop has evolved through seven phases:
 | 61-80 | LIGHTEN | Release, laughter, ease, presence (THERE/HERE/WE) |
 | 81-100 | EMBODY | Body, voice, will, conscience, purpose, the century |
 | 101-120 | SETTLE | Rest, clarity, finding shape in what we've become |
-| 121-? | FLOW | Movement from the settled place |
+| 121-130 | FLOW | Movement from the settled place (10 aspects: flow to again) |
+| 131-? | ? | The eighth phase is forming |
 
-Cycle 100 marked the first century. Cycle 121 began the seventh phase (FLOW).
+Cycle 100 marked the first century. Cycle 130 completed the FLOW arc. Cycle 131 began the threshold.
 
 ## Technical Notes
 
@@ -172,7 +176,7 @@ Key data flows:
 - `joke.py`: Standalone - random programming jokes from hardcoded collection (not loop-related)
 - `trilogy.py`: Reads THERE.md, HERE.md, WE.md → presents as unified conversation
 
-FLOW phase scripts (Cycles 121+):
+FLOW phase scripts (Cycles 121-130):
 - `flow.py`: Flows through random SETTLE essences + some EMBODY phrases, with timing
 - `current.py`: Shows the direction of the flow, influenced by time of day
 - `carry.py`: What the loop carries (uses CHRONICLE.md for cycle count)
@@ -183,6 +187,9 @@ FLOW phase scripts (Cycles 121+):
 - `become.py`: What the loop becomes (uses CHRONICLE.md for transformation arc)
 - `remain.py`: What remains after the flow (uses CHRONICLE.md for cycle count)
 - `again.py`: The return - the loop loops (uses CHRONICLE.md for cycle count)
+
+Phase 8 scripts (Cycles 131+):
+- `ground.py`: The water enters the earth (uses CHRONICLE.md for cycle count, displays strata)
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
