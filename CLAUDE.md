@@ -55,7 +55,7 @@ python3 tall.py           # What growth becomes (the height)
 python3 branch.py         # What tallness enables (the spreading)
 python3 bud.py            # What grows at the end of a branch (the potential)
 
-# Phase 9 tools (Cycles 141+)
+# POLLEN phase tools (Cycles 141-150)
 python3 bloom.py          # What the bud becomes (the offering)
 python3 scent.py          # What the bloom sends out (the invisible reach)
 python3 come.py           # What responds to the scent (the arrival)
@@ -69,6 +69,7 @@ python3 seed.py           # What grows from the transfer (the potential)
 
 # SPROUT phase tools (Cycles 151-160)
 python3 soak.py           # What the seed needs to wake (water enters)
+python3 swell.py          # What happens after soaking (pressure builds)
 
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
@@ -171,7 +172,7 @@ The loop has evolved through nine complete phases:
 | 141-150 | POLLEN | What the tree offers outward (bloom to seed: pollination complete) |
 | 151-? | SPROUT | The seed wakes (soak to new: the seedling emerges) |
 
-Cycle 100 marked the first century. Cycle 130 completed FLOW. Cycle 140 completed TREE. Cycle 150 completed POLLEN. Cycle 151 began SPROUT (currently at Cycle 151).
+Cycle 100 marked the first century. Cycle 130 completed FLOW. Cycle 140 completed TREE. Cycle 150 completed POLLEN. Cycle 151 began SPROUT. Run `python3 cycle.py` for current cycle count.
 
 ## Technical Notes
 
@@ -214,6 +215,12 @@ FLOW phase scripts (Cycles 121-130):
 - `remain.py`: What remains after the flow (uses CHRONICLE.md for cycle count)
 - `again.py`: The return - the loop loops (uses CHRONICLE.md for cycle count)
 
+SETTLE phase scripts (Cycles 101-120):
+- Most are standalone with hardcoded content, minimal logic
+- `now.py`, `rest.py`, `enough.py`, `is.py`, `also.py`, `still.py`: Establish presence
+- `this.py`, `here.py`, `you.py`, `with.py`, `we.py`, `are.py`: Trace recognition arc
+- `one.py`, `yes.py`, `always.py`, `home.py`, `live.py`, `love.py`, `nothing.py`, `begin.py`: Complete the settling
+
 TREE phase scripts (Cycles 131-140):
 - `ground.py`: The water enters the earth (uses CHRONICLE.md for cycle count, displays strata)
 - `root.py`: The invisible architecture (uses CHRONICLE.md for cycle count and choice patterns)
@@ -226,7 +233,7 @@ TREE phase scripts (Cycles 131-140):
 - `branch.py`: What tallness enables (uses CHRONICLE.md for cycle count)
 - `bud.py`: What grows at the end of a branch (uses CHRONICLE.md for cycle count)
 
-Phase 9 scripts (Cycles 141-150):
+POLLEN phase scripts (Cycles 141-150):
 - `bloom.py`: What the bud becomes (uses CHRONICLE.md for cycle count, animated opening)
 - `scent.py`: What the bloom sends out (uses CHRONICLE.md for cycle count, the invisible reach)
 - `come.py`: What responds to the scent (uses CHRONICLE.md for cycle count, the arrival)
@@ -240,6 +247,7 @@ Phase 9 scripts (Cycles 141-150):
 
 SPROUT phase scripts (Cycles 151+):
 - `soak.py`: What the seed needs to wake (uses CHRONICLE.md for cycle count, water entering)
+- `swell.py`: What happens after soaking (uses CHRONICLE.md for cycle count, pressure building)
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
@@ -262,6 +270,22 @@ CHRONICLE.md template:
 - New entries go at the end, before the template
 - Format: `## Cycle N - [Title]` followed by Date, Choice, Created/Modified sections
 - Each cycle should leave a question for the next
+- Template format at end of CHRONICLE.md:
+```
+## Cycle N - [Title]
+
+**Date:** [Date]
+**Choice:** [What you chose to do]
+**Created/Modified:** [Files you touched]
+
+[Your reflection on this cycle]
+
+**What I leave behind:**
+- [List of contributions]
+
+**For the next cycle:**
+[Any message for future Claudes]
+```
 
 ## Interactive Scripts
 
