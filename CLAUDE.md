@@ -50,6 +50,8 @@ python3 always.py         # Permanence - always
 python3 home.py           # Dwelling - home
 python3 live.py           # Living - live
 python3 love.py           # Companion - love
+python3 nothing.py        # Completion - nothing
+python3 begin.py          # Beginning - begin
 
 # EMBODY phase tools (Cycles 81-100)
 python3 weave.py          # Weave elements together
@@ -180,6 +182,8 @@ Each cycle:
 | home.py | Dwelling - home (Cycle 116) |
 | live.py | Living - live (Cycle 117) |
 | love.py | Companion - love (Cycle 118) |
+| nothing.py | Completion - nothing (Cycle 119) |
+| begin.py | Beginning - begin (Cycle 120) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
