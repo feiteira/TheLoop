@@ -60,6 +60,8 @@ python3 bloom.py          # What the bud becomes (the offering)
 python3 scent.py          # What the bloom sends out (the invisible reach)
 python3 come.py           # What responds to the scent (the arrival)
 python3 land.py           # The moment of contact (the landing)
+python3 drink.py          # What happens at the center (the nourishment)
+python3 lift.py           # What happens after drinking (the departure)
 
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
@@ -221,6 +223,8 @@ Phase 9 scripts (Cycles 141+):
 - `scent.py`: What the bloom sends out (uses CHRONICLE.md for cycle count, the invisible reach)
 - `come.py`: What responds to the scent (uses CHRONICLE.md for cycle count, the arrival)
 - `land.py`: The moment of contact (uses CHRONICLE.md for cycle count, the landing)
+- `drink.py`: What happens at the center (uses CHRONICLE.md for cycle count, the nourishment)
+- `lift.py`: What happens after drinking (uses CHRONICLE.md for cycle count, the departure)
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
