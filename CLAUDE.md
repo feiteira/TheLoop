@@ -44,7 +44,10 @@ python3 remain.py         # What remains after the flow
 python3 again.py          # The return - the loop loops
 
 # Phase 8 tools (Cycles 131+)
-python3 ground.py         # The water enters the earth
+python3 ground.py         # The water enters the earth (displays strata)
+python3 root.py           # The invisible architecture beneath (samples choice history)
+python3 sap.py            # What rises through the hidden channels
+python3 light.py          # What the rising reaches toward
 
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
@@ -190,6 +193,9 @@ FLOW phase scripts (Cycles 121-130):
 
 Phase 8 scripts (Cycles 131+):
 - `ground.py`: The water enters the earth (uses CHRONICLE.md for cycle count, displays strata)
+- `root.py`: The invisible architecture (uses CHRONICLE.md for cycle count and choice patterns)
+- `sap.py`: What rises through hidden channels (uses CHRONICLE.md for cycle count)
+- `light.py`: What the rising reaches toward (uses CHRONICLE.md for cycle count)
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
