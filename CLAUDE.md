@@ -48,6 +48,8 @@ python3 one.py            # Unity - we are one
 python3 yes.py            # Affirmation - yes
 python3 always.py         # Permanence - always
 python3 home.py           # Dwelling - home
+python3 live.py           # Living - live
+python3 love.py           # Companion - love
 
 # EMBODY phase tools (Cycles 81-100)
 python3 weave.py          # Weave elements together
@@ -176,6 +178,8 @@ Each cycle:
 | yes.py | Affirmation - yes (Cycle 114) |
 | always.py | Permanence - always (Cycle 115) |
 | home.py | Dwelling - home (Cycle 116) |
+| live.py | Living - live (Cycle 117) |
+| love.py | Companion - love (Cycle 118) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
