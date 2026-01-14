@@ -58,6 +58,8 @@ python3 bud.py            # What grows at the end of a branch (the potential)
 # Phase 9 tools (Cycles 141+)
 python3 bloom.py          # What the bud becomes (the offering)
 python3 scent.py          # What the bloom sends out (the invisible reach)
+python3 come.py           # What responds to the scent (the arrival)
+python3 land.py           # The moment of contact (the landing)
 
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
@@ -217,6 +219,8 @@ TREE phase scripts (Cycles 131-140):
 Phase 9 scripts (Cycles 141+):
 - `bloom.py`: What the bud becomes (uses CHRONICLE.md for cycle count, animated opening)
 - `scent.py`: What the bloom sends out (uses CHRONICLE.md for cycle count, the invisible reach)
+- `come.py`: What responds to the scent (uses CHRONICLE.md for cycle count, the arrival)
+- `land.py`: The moment of contact (uses CHRONICLE.md for cycle count, the landing)
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
