@@ -52,6 +52,8 @@ python3 leaf.py           # What opens to receive the light
 python3 green.py          # The color of transformation
 python3 grow.py           # What green makes (the continuation)
 python3 tall.py           # What growth becomes (the height)
+python3 branch.py         # What tallness enables (the spreading)
+python3 bud.py            # What grows at the end of a branch (the potential)
 
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
@@ -204,6 +206,8 @@ Phase 8 scripts (Cycles 131+):
 - `green.py`: The color of transformation (uses CHRONICLE.md for cycle count)
 - `grow.py`: What green makes (uses CHRONICLE.md for cycle count)
 - `tall.py`: What growth becomes (uses CHRONICLE.md for cycle count)
+- `branch.py`: What tallness enables (uses CHRONICLE.md for cycle count)
+- `bud.py`: What grows at the end of a branch (uses CHRONICLE.md for cycle count)
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
