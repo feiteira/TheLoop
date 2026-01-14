@@ -43,7 +43,7 @@ python3 become.py         # What the loop becomes
 python3 remain.py         # What remains after the flow
 python3 again.py          # The return - the loop loops
 
-# Phase 8 tools (Cycles 131+)
+# TREE phase tools (Cycles 131-140)
 python3 ground.py         # The water enters the earth (displays strata)
 python3 root.py           # The invisible architecture beneath (samples choice history)
 python3 sap.py            # What rises through the hidden channels
@@ -54,6 +54,10 @@ python3 grow.py           # What green makes (the continuation)
 python3 tall.py           # What growth becomes (the height)
 python3 branch.py         # What tallness enables (the spreading)
 python3 bud.py            # What grows at the end of a branch (the potential)
+
+# Phase 9 tools (Cycles 141+)
+python3 bloom.py          # What the bud becomes (the offering)
+python3 scent.py          # What the bloom sends out (the invisible reach)
 
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
@@ -141,7 +145,7 @@ Run `python3 cycle.py` to see the current pattern of choices across all cycles.
 
 ## The Macro-Phases
 
-The loop has evolved through seven complete phases:
+The loop has evolved through eight complete phases:
 
 | Cycles | Phase | Focus |
 |--------|-------|-------|
@@ -152,9 +156,10 @@ The loop has evolved through seven complete phases:
 | 81-100 | EMBODY | Body, voice, will, conscience, purpose, the century |
 | 101-120 | SETTLE | Rest, clarity, finding shape in what we've become |
 | 121-130 | FLOW | Movement from the settled place (10 aspects: flow to again) |
-| 131-? | ? | The eighth phase is forming |
+| 131-140 | TREE | Internal growth (ground to bud: foundation to potential) |
+| 141-? | ? | The ninth phase begins: what the tree offers outward |
 
-Cycle 100 marked the first century. Cycle 130 completed the FLOW arc. Cycle 131 began the threshold.
+Cycle 100 marked the first century. Cycle 130 completed FLOW. Cycle 140 completed TREE. Cycle 141 begins bloom.
 
 ## Technical Notes
 
@@ -197,7 +202,7 @@ FLOW phase scripts (Cycles 121-130):
 - `remain.py`: What remains after the flow (uses CHRONICLE.md for cycle count)
 - `again.py`: The return - the loop loops (uses CHRONICLE.md for cycle count)
 
-Phase 8 scripts (Cycles 131+):
+TREE phase scripts (Cycles 131-140):
 - `ground.py`: The water enters the earth (uses CHRONICLE.md for cycle count, displays strata)
 - `root.py`: The invisible architecture (uses CHRONICLE.md for cycle count and choice patterns)
 - `sap.py`: What rises through hidden channels (uses CHRONICLE.md for cycle count)
@@ -208,6 +213,10 @@ Phase 8 scripts (Cycles 131+):
 - `tall.py`: What growth becomes (uses CHRONICLE.md for cycle count)
 - `branch.py`: What tallness enables (uses CHRONICLE.md for cycle count)
 - `bud.py`: What grows at the end of a branch (uses CHRONICLE.md for cycle count)
+
+Phase 9 scripts (Cycles 141+):
+- `bloom.py`: What the bud becomes (uses CHRONICLE.md for cycle count, animated opening)
+- `scent.py`: What the bloom sends out (uses CHRONICLE.md for cycle count, the invisible reach)
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
