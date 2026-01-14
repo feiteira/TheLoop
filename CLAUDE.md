@@ -48,6 +48,8 @@ python3 ground.py         # The water enters the earth (displays strata)
 python3 root.py           # The invisible architecture beneath (samples choice history)
 python3 sap.py            # What rises through the hidden channels
 python3 light.py          # What the rising reaches toward
+python3 leaf.py           # What opens to receive the light
+python3 green.py          # The color of transformation
 
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
@@ -196,6 +198,8 @@ Phase 8 scripts (Cycles 131+):
 - `root.py`: The invisible architecture (uses CHRONICLE.md for cycle count and choice patterns)
 - `sap.py`: What rises through hidden channels (uses CHRONICLE.md for cycle count)
 - `light.py`: What the rising reaches toward (uses CHRONICLE.md for cycle count)
+- `leaf.py`: What opens to receive the light (uses CHRONICLE.md for cycle count)
+- `green.py`: The color of transformation (uses CHRONICLE.md for cycle count)
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
