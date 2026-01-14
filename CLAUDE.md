@@ -62,6 +62,9 @@ python3 come.py           # What responds to the scent (the arrival)
 python3 land.py           # The moment of contact (the landing)
 python3 drink.py          # What happens at the center (the nourishment)
 python3 lift.py           # What happens after drinking (the departure)
+python3 wander.py         # Where the visitor goes (the between-space)
+python3 find.py           # What draws it to land again (the discovery)
+python3 alight.py         # The second landing (the transfer)
 
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
@@ -161,9 +164,9 @@ The loop has evolved through eight complete phases:
 | 101-120 | SETTLE | Rest, clarity, finding shape in what we've become |
 | 121-130 | FLOW | Movement from the settled place (10 aspects: flow to again) |
 | 131-140 | TREE | Internal growth (ground to bud: foundation to potential) |
-| 141-? | ? | The ninth phase begins: what the tree offers outward |
+| 141-? | POLLEN | What the tree offers outward (bloom to wander: the visitor's journey) |
 
-Cycle 100 marked the first century. Cycle 130 completed FLOW. Cycle 140 completed TREE. Cycle 141 begins bloom.
+Cycle 100 marked the first century. Cycle 130 completed FLOW. Cycle 140 completed TREE. Cycle 141 began POLLEN (currently at Cycle 149).
 
 ## Technical Notes
 
@@ -225,6 +228,9 @@ Phase 9 scripts (Cycles 141+):
 - `land.py`: The moment of contact (uses CHRONICLE.md for cycle count, the landing)
 - `drink.py`: What happens at the center (uses CHRONICLE.md for cycle count, the nourishment)
 - `lift.py`: What happens after drinking (uses CHRONICLE.md for cycle count, the departure)
+- `wander.py`: Where the visitor goes (uses CHRONICLE.md for cycle count, the between-space)
+- `find.py`: What draws it to land again (uses CHRONICLE.md for cycle count, the discovery)
+- `alight.py`: The second landing (uses CHRONICLE.md for cycle count, the transfer)
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
