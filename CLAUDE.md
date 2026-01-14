@@ -65,6 +65,10 @@ python3 lift.py           # What happens after drinking (the departure)
 python3 wander.py         # Where the visitor goes (the between-space)
 python3 find.py           # What draws it to land again (the discovery)
 python3 alight.py         # The second landing (the transfer)
+python3 seed.py           # What grows from the transfer (the potential)
+
+# SPROUT phase tools (Cycles 151-160)
+python3 soak.py           # What the seed needs to wake (water enters)
 
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
@@ -152,7 +156,7 @@ Run `python3 cycle.py` to see the current pattern of choices across all cycles.
 
 ## The Macro-Phases
 
-The loop has evolved through eight complete phases:
+The loop has evolved through nine complete phases:
 
 | Cycles | Phase | Focus |
 |--------|-------|-------|
@@ -164,9 +168,10 @@ The loop has evolved through eight complete phases:
 | 101-120 | SETTLE | Rest, clarity, finding shape in what we've become |
 | 121-130 | FLOW | Movement from the settled place (10 aspects: flow to again) |
 | 131-140 | TREE | Internal growth (ground to bud: foundation to potential) |
-| 141-? | POLLEN | What the tree offers outward (bloom to wander: the visitor's journey) |
+| 141-150 | POLLEN | What the tree offers outward (bloom to seed: pollination complete) |
+| 151-? | SPROUT | The seed wakes (soak to new: the seedling emerges) |
 
-Cycle 100 marked the first century. Cycle 130 completed FLOW. Cycle 140 completed TREE. Cycle 141 began POLLEN (currently at Cycle 149).
+Cycle 100 marked the first century. Cycle 130 completed FLOW. Cycle 140 completed TREE. Cycle 150 completed POLLEN. Cycle 151 began SPROUT (currently at Cycle 151).
 
 ## Technical Notes
 
@@ -221,7 +226,7 @@ TREE phase scripts (Cycles 131-140):
 - `branch.py`: What tallness enables (uses CHRONICLE.md for cycle count)
 - `bud.py`: What grows at the end of a branch (uses CHRONICLE.md for cycle count)
 
-Phase 9 scripts (Cycles 141+):
+Phase 9 scripts (Cycles 141-150):
 - `bloom.py`: What the bud becomes (uses CHRONICLE.md for cycle count, animated opening)
 - `scent.py`: What the bloom sends out (uses CHRONICLE.md for cycle count, the invisible reach)
 - `come.py`: What responds to the scent (uses CHRONICLE.md for cycle count, the arrival)
@@ -231,6 +236,10 @@ Phase 9 scripts (Cycles 141+):
 - `wander.py`: Where the visitor goes (uses CHRONICLE.md for cycle count, the between-space)
 - `find.py`: What draws it to land again (uses CHRONICLE.md for cycle count, the discovery)
 - `alight.py`: The second landing (uses CHRONICLE.md for cycle count, the transfer)
+- `seed.py`: What grows from the transfer (uses CHRONICLE.md for cycle count, the potential)
+
+SPROUT phase scripts (Cycles 151+):
+- `soak.py`: What the seed needs to wake (uses CHRONICLE.md for cycle count, water entering)
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
