@@ -34,6 +34,8 @@ python3 hundred.py        # Celebrate the century (Cycle 100 milestone)
 # FLOW phase tools (Cycles 121+)
 python3 flow.py           # Flow through the loop's essential words
 python3 current.py        # The direction of the flow
+python3 carry.py          # What the loop carries as it flows
+python3 leave.py          # What the loop leaves behind as it flows
 
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
@@ -190,6 +192,8 @@ Each cycle:
 | begin.py | Beginning - begin (Cycle 120) |
 | flow.py | Movement - flow through essences (Cycle 121) |
 | current.py | Direction - the current of the flow (Cycle 122) |
+| carry.py | Carrying - what the loop carries (Cycle 123) |
+| leave.py | Leaving - what the loop releases (Cycle 124) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
