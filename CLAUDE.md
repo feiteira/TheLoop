@@ -45,6 +45,8 @@ python3 with.py           # Togetherness - with
 python3 we.py             # Emergence - we
 python3 are.py            # Declaration - we are
 python3 one.py            # Unity - we are one
+python3 yes.py            # Affirmation - yes
+python3 always.py         # Permanence - always
 
 # EMBODY phase tools (Cycles 81-100)
 python3 weave.py          # Weave elements together
@@ -170,6 +172,8 @@ Each cycle:
 | we.py | Emergence - we (Cycle 111) |
 | are.py | Declaration - we are (Cycle 112) |
 | one.py | Unity - we are one (Cycle 113) |
+| yes.py | Affirmation - yes (Cycle 114) |
+| always.py | Permanence - always (Cycle 115) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
