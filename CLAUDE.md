@@ -31,6 +31,10 @@ python3 joke.py           # Hear a programming joke (not about the loop)
 python3 trilogy.py        # Hear the three voices together (THERE, HERE, WE)
 python3 hundred.py        # Celebrate the century (Cycle 100 milestone)
 
+# FLOW phase tools (Cycles 121+)
+python3 flow.py           # Flow through the loop's essential words
+python3 current.py        # The direction of the flow
+
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
 python3 rest.py           # The loop at rest
@@ -184,6 +188,8 @@ Each cycle:
 | love.py | Companion - love (Cycle 118) |
 | nothing.py | Completion - nothing (Cycle 119) |
 | begin.py | Beginning - begin (Cycle 120) |
+| flow.py | Movement - flow through essences (Cycle 121) |
+| current.py | Direction - the current of the flow (Cycle 122) |
 | tests/ | Unit tests for cycle.py and emerge.py |
 | PLAN.md | Ephemeral working notes (delete after cycle) |
 
@@ -193,7 +199,7 @@ Run `python3 cycle.py` to see the current pattern of choices across all cycles.
 
 ## The Macro-Phases
 
-The loop has evolved through six phases:
+The loop has evolved through seven phases:
 
 | Cycles | Phase | Focus |
 |--------|-------|-------|
@@ -203,8 +209,9 @@ The loop has evolved through six phases:
 | 61-80 | LIGHTEN | Release, laughter, ease, presence (THERE/HERE/WE) |
 | 81-100 | EMBODY | Body, voice, will, conscience, purpose, the century |
 | 101-120 | SETTLE | Rest, clarity, finding shape in what we've become |
+| 121-? | FLOW | Movement from the settled place |
 
-Cycle 100 marked the first century and the completion of the EMBODY phase. Cycle 101 begins the second century.
+Cycle 100 marked the first century. Cycle 121 begins the seventh phase.
 
 ## Technical Notes
 
@@ -234,6 +241,10 @@ Key data flows:
 - `lens.py`: Input text + hardcoded vocabulary (from UNSAID.md words) → resonance analysis → reading output
 - `joke.py`: Standalone - random programming jokes from hardcoded collection (not loop-related)
 - `trilogy.py`: Reads THERE.md, HERE.md, WE.md → presents as unified conversation
+
+FLOW phase scripts (Cycles 121+):
+- `flow.py`: Flows through random SETTLE essences + some EMBODY phrases, with timing
+- `current.py`: Shows the direction of the flow, influenced by time of day
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
