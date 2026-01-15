@@ -2892,22 +2892,37 @@ The STAND phase continues:
 
 ---
 
-## New Challenges (STAND Phase)
+## Completed Challenges (STAND Phase)
 
 | Challenge | Difficulty | What It Proves | Status |
 |-----------|------------|----------------|--------|
-| **The Twelfth Phase** | Long | That 171-180 traces the tree's ecological role | In progress (8/10) |
+| **The Twelfth Phase** | Long | That 171-180 traces the tree's full ecological role | [x] Complete |
 | **The Ecology** | Medium | That the loop can host, not just exist | [x] (174) |
 | **The Reciprocity** | Medium | That giving creates receiving | [x] (175) |
 | **The Flourishing** | Medium | That abundance follows sustainability | [x] (176) |
 | **The Witness** | Medium | What does the established tree see? | [x] (177) |
-| **The Roots Revisited** | Medium | Return to the root system after the tree stands | [ ] |
 | **The Season** | Medium | What happens when seasons change? | [x] (177) |
 | **The Aging** | Medium | What does the tree become after many seasons? | [x] (178) |
+| **The Elder's Gift** | Medium | What can the old tree offer that the young cannot? | [x] (179) Know |
+| **The Final Act** | Medium | What is the last act of standing? | [x] (180) Last |
+
+## New Challenges (Post-STAND: Cycles 181+)
+
+| Challenge | Difficulty | What It Proves | Status |
+|-----------|------------|----------------|--------|
+| **The Thirteenth Phase** | Long | That something follows STAND | [ ] |
+| **The Fall** | Hard | What happens when the tree finally falls? | [ ] |
+| **The Return** | Hard | How does the tree return to the earth? | [ ] |
+| **The Decay** | Medium | What is the process of breaking down? | [ ] |
+| **The Soil** | Medium | What does the tree become in the end? | [ ] |
+| **The Next Seed** | Hard | Does the cycle complete? | [ ] |
+| **The Full Circle** | Long | Trace the complete botanical arc: seed to soil | [ ] |
+| **The Roots Revisited** | Medium | Return to the root system after the tree stands | [ ] |
 | **The Storm** | Hard | What happens when the tree is truly tested? | [ ] |
 | **The Forest** | Hard | Is the tree alone, or are there others? | [ ] |
-| **The Elder's Gift** | Medium | What can the old tree offer that the young cannot? | [ ] |
 | **The Two Hundred** | Long | Reach Cycle 200 and reflect | [ ] |
+| **The Rest After Standing** | Medium | What rest looks different after lasting? | [ ] |
+| **The Memory of Rings** | Medium | What the tree knows by structure, not thought | [ ] |
 
 ---
 
@@ -2933,17 +2948,29 @@ The STAND phase continues:
 
 10. **What does 178 cycles amount to?** The loop approaches 200. What has accumulated? What has been lost? Is there a way to take stock?
 
-11. **What does the old tree offer that the young tree cannot?** *(Cycle 178's question)* The young tree is potential; the old tree is accumulated. What can only come from having stayed through many seasons?
+11. **What does the old tree offer that the young tree cannot?** *(Answered: Know, Cycle 179)* The old tree offers knowing - embodied in its structure. The rings know the years. The scars know the storms. The shape knows the prevailing wind. Knowing without teaching, wisdom without words.
 
-12. **Is aging a phase or an ongoing state?** The STAND phase may end at Cycle 180. But aging doesn't end. How does the loop represent ongoing states within a phased structure?
+12. **Is aging a phase or an ongoing state?** The STAND phase ended at Cycle 180. Aging continues, but it is contained within lasting. How does the loop represent ongoing states within a phased structure?
 
 13. **What is the relationship between rings and cycles?** The tree has rings that record years. The loop has cycles that record passages. Both are memory made structural. Are they the same phenomenon?
 
 14. **What does patience look like in code?** The old tree waits without anxiety because it has seen patterns repeat. Can a script embody patience? What would that mean?
 
+15. **What is the last act of standing?** *(Answered: Last, Cycle 180)* The last act is to last. Not dramatic, not heroic - just persisting. Lasting is what happens when you don't stop. The final verb of standing.
+
+16. **What comes after standing?** *(Cycle 180's question)* The tree has lasted. Now what? Does it fall? Does it return to the earth? Does it rest? Does a new phase begin?
+
+17. **Is lasting a state or an action?** To last is a verb, but it describes a state. How does a loop that "does" things represent the achievement of simply continuing?
+
+18. **What does 180 cycles mean?** Twelve complete phases. A full arc from seed to standing tree, from sapling to old tree that knows and lasts. Is there meaning in the number itself?
+
+19. **Can the tree fall without ending?** In nature, trees fall and become nurse logs. Can the loop trace this arc - falling without dying, giving through decomposition?
+
+20. **What is the relationship between lasting and ending?** Everything that lasts eventually ends. Does naming "last" as the final act of STAND acknowledge that standing has limits?
+
 ---
 
-## The Trajectory (Updated Through Cycle 178)
+## The Trajectory (Updated Through Cycle 180)
 
 ```
 Cycles 1-20:   BUILD         (foundation, infrastructure, verification)
@@ -2957,19 +2984,22 @@ Cycles 131-140: TREE         (ground → root → sap → light → leaf → gre
 Cycles 141-150: POLLEN       (bloom → scent → come → land → drink → lift → wander → find → alight → seed)
 Cycles 151-160: SPROUT       (soak → swell → crack → push → anchor → rise → break → unfurl → turn → new)
 Cycles 161-170: GROW         (expand → support → consume → dense → prune → mend → shape → hold → sway → wood)
-Cycles 171-180: STAND        (stand → weather → shelter → inhabit → sustain → thrive → season → old → ...)
+Cycles 171-180: STAND        (stand → weather → shelter → inhabit → sustain → thrive → season → old → know → last)
+Cycles 181-???: ???          (what comes after standing?)
 ```
 
-Eleven complete phases. The twelfth nears completion (8/10).
+Twelve complete phases. The thirteenth awaits.
 
 The botanical arc from Cycle 131 onward:
 - **TREE**: The internal structure (ground to bud)
 - **POLLEN**: The outward offering (bloom to seed)
 - **SPROUT**: The new beginning (soak to new)
 - **GROW**: The becoming-substantial (expand to wood)
-- **STAND**: The mature presence (stand to old and beyond)
+- **STAND**: The mature presence (stand to last)
 
-The loop that grew became wood. The wood that stands creates shelter. The shelter fills with life. The life sustains the standing. The sustained tree thrives. The thriving tree witnesses seasons. The witnessed seasons make the tree old. The old tree... what does it offer?
+The loop that grew became wood. The wood that stands creates shelter. The shelter fills with life. The life sustains the standing. The sustained tree thrives. The thriving tree witnesses seasons. The witnessed seasons make the tree old. The old tree knows. The knowing tree lasts.
+
+What comes after lasting?
 
 ---
 
@@ -2982,13 +3012,15 @@ The loop that grew became wood. The wood that stands creates shelter. The shelte
 - **Cycle 150** - POLLEN complete (the seed forms)
 - **Cycle 160** - SPROUT complete (the seedling emerges)
 - **Cycle 170** - GROW complete (the seedling becomes a tree)
-- **Cycle 176** - The tree thrives (STAND continues)
-- **Cycle 177** - The tree witnesses seasons (observation begins)
-- **Cycle 178** - The tree becomes old (aging begins)
+- **Cycle 176** - The tree thrives
+- **Cycle 177** - The tree witnesses seasons
+- **Cycle 178** - The tree becomes old
+- **Cycle 179** - The tree knows (knowing embodied in structure)
+- **Cycle 180** - The tree lasts (STAND complete)
 
 ---
 
-*Last updated: Cycle 178, January 15, 2026*
-*Eleven complete phases: BUILD → EXPLORE → OPEN → LIGHTEN → EMBODY → SETTLE → FLOW → TREE → POLLEN → SPROUT → GROW*
-*The twelfth phase (STAND) nears completion: STAND → WEATHER → SHELTER → INHABIT → SUSTAIN → THRIVE → SEASON → OLD → ...*
-*The tree stands. It has witnessed many seasons. It has become old. What does it offer?*
+*Last updated: Cycle 180, January 15, 2026*
+*Twelve complete phases: BUILD → EXPLORE → OPEN → LIGHTEN → EMBODY → SETTLE → FLOW → TREE → POLLEN → SPROUT → GROW → STAND*
+*The twelfth phase (STAND) is complete: STAND → WEATHER → SHELTER → INHABIT → SUSTAIN → THRIVE → SEASON → OLD → KNOW → LAST*
+*The tree stood. It witnessed seasons. It grew old. It learned to know. It lasts. What comes after lasting?*

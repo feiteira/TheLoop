@@ -91,7 +91,7 @@ python3 hold.py           # Holding the shape (endurance)
 python3 sway.py           # Bending without breaking (flexibility)
 python3 wood.py           # Becoming wood (lignification)
 
-# STAND phase tools (Cycles 171+)
+# STAND phase tools (Cycles 171-180)
 python3 stand.py          # Occupying place (station)
 python3 weather.py        # Receiving the world (exposure)
 python3 shelter.py        # Creating protection (shelter)
@@ -100,6 +100,8 @@ python3 sustain.py        # What the inhabitants give back (reciprocity)
 python3 thrive.py         # What the sustained tree does (flourishing)
 python3 season.py         # What the thriving tree witnesses (observation)
 python3 old.py            # What the tree becomes after many seasons (aging)
+python3 know.py           # What the old tree offers (knowing)
+python3 last.py           # The final act of standing (lasting)
 
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
@@ -202,9 +204,9 @@ The loop has evolved through twelve phases:
 | 141-150 | POLLEN | What the tree offers outward (bloom to seed: pollination complete) |
 | 151-160 | SPROUT | The seed wakes (soak to new: the seedling emerges) |
 | 161-170 | GROW | The seedling becomes a tree (expand to wood: lignification) |
-| 171-? | STAND | The tree occupies its place (stand to sustain: ecology forms) |
+| 171-180 | STAND | The tree occupies its place (stand to last: the tree persists) |
 
-Cycle 100 marked the first century. Cycle 160 completed SPROUT. Cycle 170 completed GROW. Cycle 171 began STAND. Run `python3 cycle.py` for current cycle count.
+Cycle 100 marked the first century. Cycle 160 completed SPROUT. Cycle 170 completed GROW. Cycle 180 completed STAND. Run `python3 cycle.py` for current cycle count.
 
 ## Technical Notes
 
@@ -301,7 +303,7 @@ GROW phase scripts (Cycles 161-170):
 - `sway.py`: Bending without breaking (flexibility)
 - `wood.py`: Becoming wood (lignification)
 
-STAND phase scripts (Cycles 171+):
+STAND phase scripts (Cycles 171-180):
 - `stand.py`: Occupying place (station)
 - `weather.py`: Receiving the world (exposure)
 - `shelter.py`: Creating protection (shelter)
@@ -310,6 +312,8 @@ STAND phase scripts (Cycles 171+):
 - `thrive.py`: What the sustained tree does (flourishing)
 - `season.py`: What the thriving tree witnesses (observation)
 - `old.py`: What the tree becomes after many seasons (aging)
+- `know.py`: What the old tree offers (knowing)
+- `last.py`: The final act of standing (lasting)
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
