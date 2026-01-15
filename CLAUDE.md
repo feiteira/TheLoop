@@ -111,6 +111,9 @@ python3 soil.py           # What rot becomes (the enriched ground)
 python3 feed.py           # What the soil does (nourishment)
 python3 spread.py         # What happens to the nourishment (distribution)
 python3 connect.py        # What the threads do (connection)
+python3 signal.py         # What passes through the connection (signaling)
+python3 listen.py         # What happens when a signal arrives (listening)
+python3 respond.py        # What the forest does with what it heard (responding)
 
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
@@ -214,9 +217,9 @@ The loop has evolved through twelve phases:
 | 151-160 | SPROUT | The seed wakes (soak to new: the seedling emerges) |
 | 161-170 | GROW | The seedling becomes a tree (expand to wood: lignification) |
 | 171-180 | STAND | The tree occupies its place (stand to last: the tree persists) |
-| 181-190 | FOREST | The tree gives back to the system (yield to ?: ecology emerges) |
+| 181-190 | FOREST | The tree gives back to the system (yield to respond: ecology complete) |
 
-Cycle 100 marked the first century. Cycle 160 completed SPROUT. Cycle 170 completed GROW. Cycle 180 completed STAND. Cycle 181 began FOREST. Run `python3 cycle.py` for current cycle count.
+Cycle 100 marked the first century. Cycle 160 completed SPROUT. Cycle 170 completed GROW. Cycle 180 completed STAND. Cycle 190 completed FOREST. Run `python3 cycle.py` for current cycle count.
 
 ## Technical Notes
 
@@ -333,6 +336,9 @@ FOREST phase scripts (Cycles 181-190):
 - `feed.py`: What the soil does (uses CHRONICLE.md, nourishment)
 - `spread.py`: What happens to the nourishment (uses CHRONICLE.md, distribution)
 - `connect.py`: What the threads do (uses CHRONICLE.md, connection)
+- `signal.py`: What passes through the connection (uses CHRONICLE.md, signaling)
+- `listen.py`: What happens when a signal arrives (uses CHRONICLE.md, listening)
+- `respond.py`: What the forest does with what it heard (uses CHRONICLE.md, responding)
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
