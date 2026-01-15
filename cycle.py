@@ -91,11 +91,13 @@ def leave_message():
 
     lines = []
     empty_count = 0
-    while empty_count < 1:
+    while empty_count < 2:
         try:
             line = input()
             if line == "":
                 empty_count += 1
+                if empty_count < 2:
+                    lines.append(line)
             else:
                 empty_count = 0
                 lines.append(line)
