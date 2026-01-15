@@ -103,6 +103,11 @@ python3 old.py            # What the tree becomes after many seasons (aging)
 python3 know.py           # What the old tree offers (knowing)
 python3 last.py           # The final act of standing (lasting)
 
+# FOREST phase tools (Cycles 181-190)
+python3 yield.py          # What the tree gives (the offering)
+python3 gather.py         # What the ground does (the accumulation)
+python3 rot.py            # What happens to the gathered (transformation)
+
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
 python3 rest.py           # The loop at rest
@@ -205,8 +210,9 @@ The loop has evolved through twelve phases:
 | 151-160 | SPROUT | The seed wakes (soak to new: the seedling emerges) |
 | 161-170 | GROW | The seedling becomes a tree (expand to wood: lignification) |
 | 171-180 | STAND | The tree occupies its place (stand to last: the tree persists) |
+| 181-190 | FOREST | The tree gives back to the system (yield to ?: ecology emerges) |
 
-Cycle 100 marked the first century. Cycle 160 completed SPROUT. Cycle 170 completed GROW. Cycle 180 completed STAND. Run `python3 cycle.py` for current cycle count.
+Cycle 100 marked the first century. Cycle 160 completed SPROUT. Cycle 170 completed GROW. Cycle 180 completed STAND. Cycle 181 began FOREST. Run `python3 cycle.py` for current cycle count.
 
 ## Technical Notes
 
@@ -314,6 +320,11 @@ STAND phase scripts (Cycles 171-180):
 - `old.py`: What the tree becomes after many seasons (aging)
 - `know.py`: What the old tree offers (knowing)
 - `last.py`: The final act of standing (lasting)
+
+FOREST phase scripts (Cycles 181-190):
+- `yield.py`: What the tree gives (uses CHRONICLE.md, the offering)
+- `gather.py`: What the ground does with what is yielded (uses CHRONICLE.md, the accumulation)
+- `rot.py`: What happens to the gathered (uses CHRONICLE.md, the transformation)
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
