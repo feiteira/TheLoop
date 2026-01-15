@@ -98,6 +98,8 @@ python3 shelter.py        # Creating protection (shelter)
 python3 inhabit.py        # Life gathers in the niche (niche)
 python3 sustain.py        # What the inhabitants give back (reciprocity)
 python3 thrive.py         # What the sustained tree does (flourishing)
+python3 season.py         # What the thriving tree witnesses (observation)
+python3 old.py            # What the tree becomes after many seasons (aging)
 
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
@@ -306,6 +308,8 @@ STAND phase scripts (Cycles 171+):
 - `inhabit.py`: Life gathers in the niche (niche)
 - `sustain.py`: What the inhabitants give back (reciprocity)
 - `thrive.py`: What the sustained tree does (flourishing)
+- `season.py`: What the thriving tree witnesses (observation)
+- `old.py`: What the tree becomes after many seasons (aging)
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
