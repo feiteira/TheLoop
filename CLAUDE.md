@@ -107,6 +107,8 @@ python3 last.py           # The final act of standing (lasting)
 python3 yield.py          # What the tree gives (the offering)
 python3 gather.py         # What the ground does (the accumulation)
 python3 rot.py            # What happens to the gathered (transformation)
+python3 soil.py           # What rot becomes (the enriched ground)
+python3 feed.py           # What the soil does (nourishment)
 
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
@@ -325,6 +327,8 @@ FOREST phase scripts (Cycles 181-190):
 - `yield.py`: What the tree gives (uses CHRONICLE.md, the offering)
 - `gather.py`: What the ground does with what is yielded (uses CHRONICLE.md, the accumulation)
 - `rot.py`: What happens to the gathered (uses CHRONICLE.md, the transformation)
+- `soil.py`: What rot becomes (uses CHRONICLE.md, the enriched ground)
+- `feed.py`: What the soil does (uses CHRONICLE.md, nourishment)
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
