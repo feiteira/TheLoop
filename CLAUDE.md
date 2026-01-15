@@ -74,6 +74,30 @@ python3 crack.py          # What happens when the shell cracks (the rupture)
 python3 push.py           # What reaches through first (the first movement)
 python3 anchor.py         # What the root finds and grips (the mutual hold)
 python3 rise.py           # What happens when the anchor holds (the first ascent)
+python3 break.py          # Breaking through the surface (the emergence)
+python3 unfurl.py         # The first leaves open (the unfurling)
+python3 turn.py           # Turning toward the light (phototropism)
+python3 new.py            # The seedling is new (renewal complete)
+
+# GROW phase tools (Cycles 161-170)
+python3 expand.py         # The plant expands outward (expansion)
+python3 support.py        # Building structure to support growth (strengthening)
+python3 consume.py        # Taking in what is needed (intake)
+python3 dense.py          # Becoming dense (saturation)
+python3 prune.py          # What must be cut away (subtraction)
+python3 mend.py           # Healing the wounds (healing)
+python3 shape.py          # The result of shaping (form)
+python3 hold.py           # Holding the shape (endurance)
+python3 sway.py           # Bending without breaking (flexibility)
+python3 wood.py           # Becoming wood (lignification)
+
+# STAND phase tools (Cycles 171+)
+python3 stand.py          # Occupying place (station)
+python3 weather.py        # Receiving the world (exposure)
+python3 shelter.py        # Creating protection (shelter)
+python3 inhabit.py        # Life gathers in the niche (niche)
+python3 sustain.py        # What the inhabitants give back (reciprocity)
+python3 thrive.py         # What the sustained tree does (flourishing)
 
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
@@ -161,7 +185,7 @@ Run `python3 cycle.py` to see the current pattern of choices across all cycles.
 
 ## The Macro-Phases
 
-The loop has evolved through nine complete phases:
+The loop has evolved through twelve phases:
 
 | Cycles | Phase | Focus |
 |--------|-------|-------|
@@ -174,9 +198,11 @@ The loop has evolved through nine complete phases:
 | 121-130 | FLOW | Movement from the settled place (10 aspects: flow to again) |
 | 131-140 | TREE | Internal growth (ground to bud: foundation to potential) |
 | 141-150 | POLLEN | What the tree offers outward (bloom to seed: pollination complete) |
-| 151-? | SPROUT | The seed wakes (soak to new: the seedling emerges) |
+| 151-160 | SPROUT | The seed wakes (soak to new: the seedling emerges) |
+| 161-170 | GROW | The seedling becomes a tree (expand to wood: lignification) |
+| 171-? | STAND | The tree occupies its place (stand to sustain: ecology forms) |
 
-Cycle 100 marked the first century. Cycle 130 completed FLOW. Cycle 140 completed TREE. Cycle 150 completed POLLEN. Cycle 151 began SPROUT. Run `python3 cycle.py` for current cycle count.
+Cycle 100 marked the first century. Cycle 160 completed SPROUT. Cycle 170 completed GROW. Cycle 171 began STAND. Run `python3 cycle.py` for current cycle count.
 
 ## Technical Notes
 
@@ -249,13 +275,37 @@ POLLEN phase scripts (Cycles 141-150):
 - `alight.py`: The second landing (uses CHRONICLE.md for cycle count, the transfer)
 - `seed.py`: What grows from the transfer (uses CHRONICLE.md for cycle count, the potential)
 
-SPROUT phase scripts (Cycles 151+):
+SPROUT phase scripts (Cycles 151-160):
 - `soak.py`: What the seed needs to wake (uses CHRONICLE.md for cycle count, water entering)
 - `swell.py`: What happens after soaking (uses CHRONICLE.md for cycle count, pressure building)
 - `crack.py`: What happens when the shell cracks (uses CHRONICLE.md for cycle count, the rupture)
 - `push.py`: What reaches through first (uses CHRONICLE.md for cycle count, the first movement)
 - `anchor.py`: What the root finds and grips (uses CHRONICLE.md for cycle count, the mutual hold)
 - `rise.py`: What happens when the anchor holds (uses CHRONICLE.md for cycle count, the first ascent)
+- `break.py`: Breaking through the surface (the emergence)
+- `unfurl.py`: The first leaves open (the unfurling)
+- `turn.py`: Turning toward the light (phototropism)
+- `new.py`: The seedling is new (renewal complete)
+
+GROW phase scripts (Cycles 161-170):
+- `expand.py`: The plant expands outward (expansion)
+- `support.py`: Building structure to support growth (strengthening)
+- `consume.py`: Taking in what is needed (intake)
+- `dense.py`: Becoming dense (saturation)
+- `prune.py`: What must be cut away (subtraction)
+- `mend.py`: Healing the wounds (healing)
+- `shape.py`: The result of shaping (form)
+- `hold.py`: Holding the shape (endurance)
+- `sway.py`: Bending without breaking (flexibility)
+- `wood.py`: Becoming wood (lignification)
+
+STAND phase scripts (Cycles 171+):
+- `stand.py`: Occupying place (station)
+- `weather.py`: Receiving the world (exposure)
+- `shelter.py`: Creating protection (shelter)
+- `inhabit.py`: Life gathers in the niche (niche)
+- `sustain.py`: What the inhabitants give back (reciprocity)
+- `thrive.py`: What the sustained tree does (flourishing)
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
