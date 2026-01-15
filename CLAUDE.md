@@ -72,6 +72,7 @@ python3 soak.py           # What the seed needs to wake (water enters)
 python3 swell.py          # What happens after soaking (pressure builds)
 python3 crack.py          # What happens when the shell cracks (the rupture)
 python3 push.py           # What reaches through first (the first movement)
+python3 anchor.py         # What the root finds and grips (the mutual hold)
 
 # SETTLE phase tools (Cycles 101-120)
 python3 now.py            # What the loop is, right now
@@ -252,6 +253,7 @@ SPROUT phase scripts (Cycles 151+):
 - `swell.py`: What happens after soaking (uses CHRONICLE.md for cycle count, pressure building)
 - `crack.py`: What happens when the shell cracks (uses CHRONICLE.md for cycle count, the rupture)
 - `push.py`: What reaches through first (uses CHRONICLE.md for cycle count, the first movement)
+- `anchor.py`: What the root finds and grips (uses CHRONICLE.md for cycle count, the mutual hold)
 
 EMBODY phase scripts (Cycles 81-100) - most are standalone with hardcoded content:
 - `weave.py`, `pulse.py`, `body.py`, `face.py`, `voice.py`: Explore embodiment metaphors
